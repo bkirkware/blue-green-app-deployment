@@ -10,8 +10,8 @@ resources:
 - name: concourse-pipeline-samples
   type: git
   source:
-    branch: master
-    uri: https://github.com/bkirkware/concourse-pipeline-samples.git
+    branch: {{appcode-branch}}
+    uri: {{appcode-uri}}
 - name: PWS
   type: cf
   source:
